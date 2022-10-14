@@ -50,10 +50,6 @@
     text-decoration: none;
 }
 
-.header .nav .nav__logo .nav__logo__img {
-    
-}
-
 .header .nav .nav__list {
     display: flex;
     align-items: center;
@@ -974,8 +970,6 @@
     top: 0px;
 }
 /* ================= FOOTER ================= */
-
-.footer {}
 
 .footer .overFooter {
     background-color: #333;
