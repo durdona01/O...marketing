@@ -2,10 +2,13 @@
 const hamburger = document.querySelector("#hamburger");
 const navMenu = document.querySelector(".nav__list");
 const HEADER = document.querySelector("#head");
+let logoLightImg = document.querySelector("#logoLightImg");
 
 // Scroll Header ==================/
 window.addEventListener("scroll", function(){
-    HEADER.classList.toggle("sticky", this.window.scrollY > 752)
+    HEADER.classList.toggle("sticky", this.window.scrollY > 752);
+    if( this.window.scrollY > 752 ) { (logoLightImg).src = "./img/LOGO_black.svg" }
+    else { (logoLightImg).src = "./img/LOGO_light.svg" }
 })
 // Scroll Header ==================/
 

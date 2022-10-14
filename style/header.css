@@ -164,11 +164,14 @@ p {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     position: fixed;
-    background-color: #fcbb08;
-    height: 80px;
-
+    /* background: #2A2C2B; */
+    background: #333333;
+    border-bottom: 1px solid #2A2C2B;
   }
-  
+  header.sticky .nav .nav__list li .nav__link{
+    color: #fff;
+}
+
 /* ================= HEADER ================= */
 
 @media only screen and (max-width: 960px) {
